@@ -6,3 +6,6 @@ def info(message) {
 def warning(message) {
     echo "WARNING: ${message}"
 }
+
+m = new org.foo.zot()
+m.checkOutFrom("hello")
